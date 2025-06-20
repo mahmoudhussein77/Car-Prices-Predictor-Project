@@ -1,0 +1,7 @@
+- install python on your device
+
+- in CMD install the required modules :
+
+1- pip install streamlit
+
+2- pip install scikit-learn
