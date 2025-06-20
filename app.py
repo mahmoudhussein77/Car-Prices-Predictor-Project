@@ -7,13 +7,13 @@ import pickle
 from sklearn.preprocessing import LabelEncoder
 
 # loading model
-with open("car_prices_predictor.pk1", "rb") as f:
+with open("Model.pk1", "rb") as f:
     model = pickle.load(f)
 
 st.title("Car Prices Predictor By: Mahmoud Hussein")
 
 # Reading Data
-data = pd.read_csv("D:\Car Prices Predictor Final\car.csv")
+data = pd.read_csv("D:\Car Prices Predictor Final\Dataset.csv")
 warnings.filterwarnings('ignore',category=SyntaxWarning)
 
 # Filter Models By Car Brand
